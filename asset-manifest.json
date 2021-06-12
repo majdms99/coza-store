@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/coza-store/static/css/main.656c6c39.chunk.css",
+    "main.js": "/coza-store/static/js/main.a09ecec2.chunk.js",
+    "main.js.map": "/coza-store/static/js/main.a09ecec2.chunk.js.map",
+    "runtime-main.js": "/coza-store/static/js/runtime-main.149df2a7.js",
+    "runtime-main.js.map": "/coza-store/static/js/runtime-main.149df2a7.js.map",
+    "static/css/2.5b65c40a.chunk.css": "/coza-store/static/css/2.5b65c40a.chunk.css",
+    "static/js/2.bff150c7.chunk.js": "/coza-store/static/js/2.bff150c7.chunk.js",
+    "static/js/2.bff150c7.chunk.js.map": "/coza-store/static/js/2.bff150c7.chunk.js.map",
+    "index.html": "/coza-store/index.html",
+    "static/css/2.5b65c40a.chunk.css.map": "/coza-store/static/css/2.5b65c40a.chunk.css.map",
+    "static/css/main.656c6c39.chunk.css.map": "/coza-store/static/css/main.656c6c39.chunk.css.map",
+    "static/js/2.bff150c7.chunk.js.LICENSE.txt": "/coza-store/static/js/2.bff150c7.chunk.js.LICENSE.txt",
+    "static/media/ab1.bea3996d.jpg": "/coza-store/static/media/ab1.bea3996d.jpg",
+    "static/media/ab2.07e8f5b6.jpg": "/coza-store/static/media/ab2.07e8f5b6.jpg",
+    "static/media/About.css": "/coza-store/static/media/bc.5060112f.webp",
+    "static/media/Blog.css": "/coza-store/static/media/blg.1cbbbfaf.webp",
+    "static/media/slick-theme.css": "/coza-store/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.149df2a7.js",
+    "static/css/2.5b65c40a.chunk.css",
+    "static/js/2.bff150c7.chunk.js",
+    "static/css/main.656c6c39.chunk.css",
+    "static/js/main.a09ecec2.chunk.js"
+  ]
+}
