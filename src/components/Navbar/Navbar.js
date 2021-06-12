@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import './Navbar.css'
 import {connect} from 'react-redux'
-import {toggleNavbar, closeNavbar} from '../redux/actions/itemAction'
+import {toggleNavbar} from '../redux/actions/itemAction'
 
 const Navbar = (props) => {
 
@@ -31,7 +31,7 @@ const Navbar = (props) => {
                         <h3><span>COZA STORE</span>.</h3>
                       </div>
                       <div className='links'>
-                    <ul className={props.item.isOpen? 'nav-ul active' : 'nav-ul'} onClick={props.closeNavbar}>
+                    <ul className={props.item.isOpen? 'nav-ul active' : 'nav-ul'} >
                         <li className='nav-link'><NavLink exact to = "/">Home</NavLink></li>
                         <li className='nav-link'><NavLink to = "/shop">Shope</NavLink></li>
                         <li className='nav-link'><NavLink to = "/blog">Blog</NavLink></li>
@@ -59,4 +59,4 @@ const mapStateToProps = (state) => ({
     item: state.item,
 })
 
-export default connect(mapStateToProps,{toggleNavbar, closeNavbar})(Navbar)
+export default connect(mapStateToProps,{toggleNavbar})(Navbar)

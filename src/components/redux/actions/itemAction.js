@@ -1,6 +1,6 @@
 import {GET_ITEMS, 
     ADD_ITEM, DECRIASE_ITEM, TOGGLE_NAVBAR, 
-    TOTAL_ITEM, CLOSE_NAVBAR, BANNER_CLOSE, 
+    TOTAL_ITEM, BANNER_CLOSE, 
     INCRIASE_ITEM, DELET_ITEM} from './types'
 
     ///for getting initial state 
@@ -17,12 +17,7 @@ export const toggleNavbar =()=>  dispatch=>{
     })
 }
 /// for close toggle navbar
-export const closeNavbar =()=> dispatch => {
 
-    dispatch({
-        type: CLOSE_NAVBAR
-    })
-}
 /// for adding item to cart
 export const addCart =(id)=> dispatch=> {
 

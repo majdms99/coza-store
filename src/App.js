@@ -36,7 +36,7 @@ function App() {
      </div>
        :
        <div className="App">
-       <BrowserRouter>
+       <BrowserRouter basename='coza-store'>
          <Navbar/>
          <Switch>
            <Route exact path='/'component={Home}/>
