@@ -1,0 +1,116 @@
+.header{
+    background-image: url('./blg.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    margin-top: 70px;
+}
+.blog{
+    padding: 40px 0;
+}
+.plog-title{
+    margin-top: 30px;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.card-blog{
+    font-family: 'Poppins', sans-serif;
+}
+.card-blog .img{
+    overflow: hidden;
+}
+.card-blog img{
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.card-blog img:hover{
+    transform: scale(1.1);
+}
+.card-blog .card-blog-t{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+.card-blog .card-blog-t:hover{
+    color: #717fe0;
+    margin-left: 5px;
+ }
+.card-blog .des-blog{
+    color: #999;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.card-blog span{
+    font-size: 13px;
+    margin-bottom: 51px;
+    display: block;
+}
+ul{
+    list-style: none;
+    
+}
+.categories , .archive{
+    padding: 20px;
+}
+.categories ul, .archive ul{
+    margin: 0;
+    padding: 0;
+}
+.categories li, .archive li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.666667;
+    color: #888;
+    padding: 8px 4px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.categories li:hover, .archive li:hover{
+    margin-left: 10px;
+    color: #717fe0;
+}
+.archive li span{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 0px;
+    right: 0px;
+}
+.blog-he{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+
+.tags button{
+    border: none;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background: inherit;
+    border:  1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 80px;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: inset 0 0 0 0 #717fe0;
+}
+.tags button:hover{
+    box-shadow: inset 0 35px 0 0 #717fe0;
+    color: #fff;
+}
+@media(max-width: 768px){
+    .card-blog .card-blog-t {
+        font-size: 20px;
+    }
+}

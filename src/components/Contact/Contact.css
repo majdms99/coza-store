@@ -1,0 +1,80 @@
+.contact{
+    padding: 40px 0;
+}
+form input, form textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid#ddd;
+}
+form input:focus, form textarea:focus{
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #717fe0;
+}
+form input{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.msg-box h4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+form textarea{
+    height: 100px;
+}
+.input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+.sub{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #111;
+    margin-top: 20px !important;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease-in-out;
+    border-radius: 30px !important;
+
+}
+.sub:hover{
+    background-color: #717fe0;
+}
+
+.cot-box{
+    padding: 70px;
+
+}
+.msg-box{
+    padding: 30px;
+}
+.br{
+    border: 1px solid#ddd;
+}
+.cot-box .con-he{
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+
+}
+.cot-box p{
+    color: #999;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.cot-box i{
+    color: #999;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.cot-box .hov{
+    cursor: pointer;
+    color:#717fe0;
+    
+}
